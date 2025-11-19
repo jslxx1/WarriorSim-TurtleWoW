@@ -852,6 +852,20 @@ var gear = {
       "id": 61029
     },
     {
+      "name": "Refined Dwarven Necklace",
+      "source": "Crafting",
+      "sta": 6,
+      "str": 2,
+      "skills": {
+        "0": 3,
+        "13": 3,
+      },
+      "phase": 1,
+      "q": 3,
+      "i": 40,
+      "id": 156
+    },
+    {
       "name": "Feralkin Necklace",
       "source": "Quest",
       "skill": 4,
@@ -1264,7 +1278,7 @@ var gear = {
       "id": 47249
     },
     {
-      "name": "Dreadnaught Pauldrons",
+      "name": "Dreadnaught Spaulders",
       "ac": 722,
       "str": 21,
       "agi": 24,
@@ -6231,7 +6245,7 @@ var gear = {
       "id": 47255
     },
     {
-      "name": "Dreadnaught Sabatons",
+      "name": "Dreadnaught Boots",
       "str": 19,
       "agi": 18,
       "sta": 15,
@@ -6900,7 +6914,7 @@ var gear = {
   ],
   "finger1": [
     {
-      "name": "Ring of the Dreadnaught",
+      "name": "Signet of the Dreadnaught",
       "str": 22,
       "crit": 1,
       "hit": 1,
@@ -7388,7 +7402,7 @@ var gear = {
   ],
   "finger2": [
     {
-      "name": "Ring of the Dreadnaught",
+      "name": "Signet of the Dreadnaught",
       "str": 22,
       "crit": 1,
       "hit": 1,
@@ -7884,6 +7898,15 @@ var gear = {
       "id": 61243
     },
     {
+      "name": "Blood-etched Fetish",
+      "source": "Dungeon",
+      "haste": 1,
+      "phase": "1",
+      "q": 3,
+      "i": 37,
+      "id": 58175
+    },
+    {
       "name": "Shieldrender Talisman",
       "source": "UpperKara",
       "ap": 84,
@@ -8216,6 +8239,15 @@ var gear = {
       "q": 4,
       "i": 66,
       "id": 61243
+    },
+        {
+      "name": "Blood-etched Fetish",
+      "source": "Dungeon",
+      "haste": 1,
+      "phase": "1",
+      "q": 3,
+      "i": 37,
+      "id": 58175
     },
     {
       "name": "Shieldrender Talisman",
@@ -9013,6 +9045,20 @@ var gear = {
       "q": 3,
       "i": 60,
       "id": 18498,
+    },
+    {
+      "name": "Quel'Serrar",
+      "sta": 12,
+      "mindmg": 84,
+      "maxdmg": 126,
+      "speed": 2.0,
+      "type": "Sword",
+      "source": "Dungeon",
+      "phase": 1,
+      "q": 4,
+      "i": 71,
+      "id": 18348,
+      "Mainhand": true,
     },
     {
       "name": "Letashaz's Right Claw (Unknown PPM)",
@@ -10464,7 +10510,6 @@ var gear = {
     {
       "id": 11684,
       "name": "Ironfoe",
-      "Mainhand": true,
       "mindmg": 73,
       "maxdmg": 136,
       "speed": 2.4,
@@ -13042,7 +13087,23 @@ var gear = {
       "q": 4,
       "i": 70,
       "id": 55041
-    }
+    },
+    {
+      "id": 11684,
+      "name": "Ironfoe",
+      "mindmg": 73,
+      "maxdmg": 136,
+      "speed": 2.4,
+      "type": "Mace",
+      "source": "Dungeon",
+      "phase": 1,
+      "q": 4,
+      "i": 60,
+      "proc": {
+        "ppm": 1,
+        "extra": 2
+      }
+    },
   ],
   "twohand": [
     {
