@@ -1893,7 +1893,7 @@ class Player {
             if (this.auras.relentlessstrength && this.auras.relentlessstrength.timer) {
                 this.auras.relentlessstrength.proc();
             }
-            if (this.auras.shieldrender && rng10k() < this.auras.shieldrender.chance) {
+            if (!spell && this.auras.shieldrender && rng10k() < this.auras.shieldrender.chance) {
                 this.auras.shieldrender.use();
             }
             if (this.dragonbreath && rng10k() < 500) {
