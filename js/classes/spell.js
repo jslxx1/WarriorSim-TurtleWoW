@@ -1163,7 +1163,7 @@ class DeepWounds extends Aura {
 class OldDeepWounds extends Aura {
     constructor(player, id, adjacent) {
         super(player, id, 'Deep Wounds' + (adjacent ? ' ' + adjacent : ''));
-        this.duration = 12;
+        this.duration = 6;
         this.idmg = 0;
         this.totaldmg = 0;
     }
@@ -1178,7 +1178,7 @@ class OldDeepWounds extends Aura {
 
             /* start-log */ if (this.player.logging) this.player.log(`${this.name} tick for ${(dmg / 4).toFixed(2)}`); /* end-log */
 
-            this.nexttick += 3000;
+            this.nexttick += 1500;
         }
 
         if (step >= this.timer) {
@@ -1189,7 +1189,7 @@ class OldDeepWounds extends Aura {
     }
     use() {
         if (this.timer) this.uptime += (step - this.starttimer);
-        this.nexttick = step + 3000;
+        this.nexttick = step + 1500;
         this.timer = step + this.duration * 1000;
         this.starttimer = step;
         /* start-log */ if (this.player.logging) this.player.log(`${this.name} applied`); /* end-log */
